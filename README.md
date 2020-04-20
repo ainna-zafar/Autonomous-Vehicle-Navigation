@@ -3,7 +3,7 @@ Requirements: Pycharm IDE, Python 3.8, Numpy, OpenCV, Matplotlib
 
 Following approaches were implemented while analyzing and leveraging image and video data to help computer equipped camera in road monitoring and traffic analysis.
 
-Object/Obstacle Detection:
+#Object/Obstacle Detection:
 •	Calibrated Cameras and Read Images using Python.
 
 •	Performed  Thresh-holding and Morphological image processing operations such as Erosion, dilation for feature extraction and image segmentation
@@ -15,7 +15,7 @@ Object/Obstacle Detection:
 
 •	Adopted the use of Canny edge detection Algorithm to sketch out the contours of the road obstacles
 
-Object/obstacle Tracking:
+#Obstacle Tracking:
 
 Amalgamated aforementioned techniques to detect obstacles in video model 
 
