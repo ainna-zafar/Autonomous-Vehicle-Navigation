@@ -2,17 +2,29 @@
 Requirements: Pycharm IDE, Python 3.8, Numpy, OpenCV, Matplotlib
 
 Following approaches were implemented while analyzing and leveraging image and video data to help computer equipped camera in road monitoring and traffic analysis.
+
 Object/Obstacle Detection:
 •	Calibrated Cameras and Read Images using Python.
+
 •	Performed  Thresh-holding and Morphological image processing operations such as Erosion, dilation for feature extraction and image segmentation
+
 •	Pixel level analysis was applied to identify certain pixel structures on sample image
-•	Integrated image filtering (Smoothing and Blurring) algorithms such as Gaussian, Median and Bilateral filters to remove noise (unwanted pixels) from the image.
+
+•	Integrated image filtering (Smoothing and Blurring) algorithms such as Gaussian, Median and Bilateral filters to remove noise 
+(unwanted pixels) from the image.
+
 •	Adopted the use of Canny edge detection Algorithm to sketch out the contours of the road obstacles
+
 Object/obstacle Tracking:
+
 Amalgamated aforementioned techniques to detect obstacles in video model 
+
 •	Experimented with 2d bounding boxes for obstacle detection and localization
+
 •	Employed the use of Haar Cascade Algorithm for tracking motion of vehicles
+
 •	Used  these algorithmic models to enable monocular vehicle camera  to estimate distance and predict potential positions of vehicles/obstacles  in future frames
+
 •	Used Hough Transform for road lane line detection
 
 
